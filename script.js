@@ -20,7 +20,7 @@ function searchUser(event){
         .then(response => response.json())  // convert to json
         .then(data => {       
             console.log(data)
-            if(data.name){
+            if(data.id){
                 const userData = 
                 `<div class="user-data">
                     <div id="user_image">
